@@ -92,7 +92,7 @@ COMMONS = {
 
 
 base_requirements = {
-    "antlr4-python3-runtime==4.9.2",
+    "antlr4-python3-runtime>=4.9.2, <5.0.0",
     VERSIONS["azure-identity"],
     "azure-keyvault-secrets",  # Azure Key Vault SM
     VERSIONS["boto3"],  # Required in base for the secrets manager
